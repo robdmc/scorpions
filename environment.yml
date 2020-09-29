@@ -6,14 +6,10 @@ channels:
 dependencies:
     - python=3.8
     - jupyter
-    - jupyterlab
     - matplotlib
-    - mkl-service
     - numpy
     - pandas
     - pip
-    - scipy
 
     - pip:
-        - easier
         - lifelines
