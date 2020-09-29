@@ -5,10 +5,12 @@ channels:
     - conda-forge
 dependencies:
     - python=3.8
-    - jupyterlab
     - jupyter
+    - jupyterlab
+    - matplotlib
     - mkl-service
     - numpy
+    - pandas
     - pip
     - scipy
 
