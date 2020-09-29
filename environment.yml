@@ -1,0 +1,17 @@
+# Run this to create: conda env create --force -f environment.yml
+# To update with any changes:  conda env update -f environment.yml,
+name: scorpions
+channels:
+    - conda-forge
+dependencies:
+    - python=3.8
+    - jupyterlab
+    - jupyter
+    - mkl-service
+    - numpy
+    - pip
+    - scipy
+
+    - pip:
+        - easier
+        - lifelines
